@@ -5,7 +5,7 @@ const { jobs } = data as  { jobs: Job[] }
 
 export const DataService: IDataService = {
   getJobsWithSearchTerm: (searchTerm: string) => {
-    const result = jobs.filter(job => job.name.includes(searchTerm))
+    const result = jobs.filter(job => job.name.toLowerCase().includes(searchTerm?.toLowerCase?.()))
     return Promise.resolve(result)
   },
 

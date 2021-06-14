@@ -8,6 +8,6 @@ export interface Job {
 }
 
 export interface IDataService {
-  getJobs: () => Promise<Job[]>
+  getJobs: () => Promise<Pick<Job, 'name' | 'start' | 'end'>[]>
   getJobsWithSearchTerm: (searchTerm: string) => Promise<Pick<Job, 'name' | 'start' | 'end'>[]>
 }
