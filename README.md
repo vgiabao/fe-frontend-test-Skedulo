@@ -1,30 +1,16 @@
-# Skedulo Tech Test
+# My thoughts
 
-## Pre-Requisites
+## 1. Completing the test is a funny journey
 
-- Node
-- Npm
-- Yarn
+- Actually, I have just started the test at 9 P.M 03/05/2022. I finished the test at 11:40 P.M.
+- The test is not too difficult but I admit that it is the most suitable test to hire a frontend developer.
+- Why? No questions about algorithms, focus only on the website technologies, and how candidates think to design child components.
 
-## Installation Instructions
-Install:
-    ```yarn bootstrap```
+## 2. My decision during the development process
+- Nothing much to say. At first, I think that the size of the db.json file is too small. Thus, I intend to use the search functions by fetching all the records and filtering them at our frontend.
+- However, It is a not good practice, right? I thought about Elastic Search right after that and decide to write a code that the backend is in charge of searching things.
 
-This installs everything for the App as well as the Server, so please don't run ```npm install``` (unless you also want to run it from the `server` folder)
-
-## Running the App
-Run:
-    ```yarn start```
-
-## Testing the App
-Run:
-    ```yarn test```
-
-
-## Overview
-
-Hi! Welcome to the Skedulo frontend tech project. You will find the details for your test [here](./src/INSTRUCTIONS.md). Once you're ready reach out to your hiring manager and they will share some github names to add as collaborators who will review your submission.
-
-Once you have completed the exercise it would be great to see a readme that contains some of your thinking while working through the test, constraints you worked within, some decisions and compromises you needed to make, and anything else you think would be interesting for the reviewers to know.
-
-Good luck! And if you have any questions, don't hesitate to contact your hiring manager.
+## Conclusion
+- Thank the recruitment team so much for your time interviewing me.
+- Special thanks to Mr. Dong Phuong Nguyen. I know you were very busy on that day interviewing me. But I did not concentrate on the interview. I am so sorry and thank you very much for listening to me till the end of the interview.
+- Hope who reviews my code will give me detailed feedbacks.
